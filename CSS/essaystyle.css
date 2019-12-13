@@ -1,0 +1,166 @@
+/*---------Main Styling--------*/
+
+body {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto; 
+    background: #42403efa;
+    color:rgb(212, 206, 206);
+}
+/*------------HEADER---------------*/
+  .header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    background: rgb(241, 165, 51);
+    color:white;
+    width: 90vw;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    color: rgb(73, 37, 37);
+  }
+  #backToTop     {
+      color: rgb(236, 232, 232);
+      position: fixed;
+      text-align: right;
+}
+
+/*-------------- IMAGES -----------------*/
+
+img {
+    display: block;
+    margin: auto;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+/*--------GALLERY------------*/
+div.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;;
+    width: 25%;
+  }
+  
+  div.gallery:hover {
+    border: 1px ;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+
+ 
+/*---------TYPOGRAPHY---------*/
+
+h1, h2, h3 {
+    font-weight:normal;
+    color:rgb(241, 178, 6);
+    text-align: center;
+
+}
+p,cite{font-family: 'Libre Baskerville', serif;}
+p, blockquote{
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {font-size: 2.827em;
+    margin-top:2em;
+}
+
+h2{font-size: 2em;
+   margin-top: 2em;
+   margin-bottom: 0.5;
+   font-family: 'Bebas Neue', cursive;
+}
+
+
+
+h3{font-size: 1.414em;
+    margin-top:2em;
+    margin-bottom: 1.5em;
+    
+}
+
+blockquote{
+    font-size: 1.5em;
+    hanging-punctuation: first;
+    text-indent: -0.45;
+}
+
+cite{
+    font-size: 1em;
+}
+
+
+header p{font-size: 2em;}
+
+.indent {
+    margin-left: 3em;
+}
+
+/*-----Navigation-----*/
+nav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#000000;
+    overflow: ;
+    padding-top: 20px;
+}
+
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid rgb(170, 117, 117);
+}
+
+nav ul li{
+    display: inline;
+    margin: 5px;
+    font-size: 1.2em;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(194, 101, 101);
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+nav a:link{
+    color: #9e5151fa;
+}
+
+nav a:hover{
+    border-bottom: none;
+    color:rgb(92, 23,23, 0.973);
+}
+html {
+    scroll-behavior: smooth;
+  }
+/*------random--------*/
+
+/*-----------FOOTER----------*/
+footer{
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 2em 0;
+}
