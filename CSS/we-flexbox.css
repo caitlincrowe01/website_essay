@@ -27,6 +27,7 @@ aside { flex: 1;
     font-size: 50px;
     color: rgb(252, 237, 153);
     margin-top: 4em;
+    text-align: center;
   }
   #backToTop     {
       color: rgb(236, 232, 232);
@@ -145,7 +146,6 @@ nav a:link{
 }
 
 nav a:hover{
-  border-bottom: none;
   color:rgb(250, 116, 7);
 }
 html {
@@ -153,51 +153,18 @@ html {
   }
 /*-----------FOOTER----------*/
 footer{
-    font-size: 0.707em;
-          
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 2em 0;
+  
 }
 .connections {
-	position: relative;
-	margin: 0 auto;
+  display: inline-flex;
+  list-style-type: none;
 }
 
-.connections ul {
-	margin: 0;
-	padding: 0;}
+   
 
-.connections li {
-	margin: 0 15px;
-	padding: 0;
-	display: inline-block;}
-	
-.connections a:link {
-	border-bottom: none;}
-
-.connections img {
-  border: none;
-  }
- 
-.connections svg{
-  border: none;
-}
-.connections a:hover img,
-.connections a:hover svg{
-  border-bottom: none;}
-
-.connections svg {
-      margin: 2em auto;}
-
-.connections a:hover svg path {
-      fill: #ff9900;
-      transition: all 0.2s ease-in-out;}
-
-.connections .twitter a:hover svg path {
-      fill: #00acee ;
-      transition: all 0.2s ease-in-out;}
-
-.connections .tumblr a:hover svg path {
-      fill: #34526f ;
-      transition: all 0.2s ease-in-out;}
 /* ----------------- MEDIA QUERIES ----------------------*/
 
 
